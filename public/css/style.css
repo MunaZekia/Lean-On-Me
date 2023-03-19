@@ -191,3 +191,20 @@ h3 {
 #map {
   width: 250px;
 }
+.footerRow{
+  font-size: 0.85rem;
+  padding: 2rem 1rem 2rem 2rem;
+  background-color: #717376;
+  color: white;
+  text-align: justify;
+  padding: 1rem 1rem 2rem 2rem;
+  letter-spacing: 5px;
+  line-height: 2;
+
+}
+.footerRow2 {
+  padding-right: 0.5rem;
+    float:left;
+    display: inline;
+}
+  

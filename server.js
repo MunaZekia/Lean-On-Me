@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 const commentRoutes = require('./controllers/api/comment-routes');
-
+const cors = require('cors')
 
 
 // setup
@@ -51,7 +51,7 @@ const sess = {
 
 // Set up Handlebars views directory
 app.set('views', path.join(__dirname, 'views'));
-
+app.use(cors())
 app.use(session(sess));
 
 app.use('/api/comments', commentRoutes);
