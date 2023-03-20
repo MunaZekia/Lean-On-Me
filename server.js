@@ -52,7 +52,7 @@ const sess = {
 
 // Set up Handlebars views directory
 app.set('views', path.join(__dirname, 'views'));
-app.use(cors())
+//app.use(cors())
 app.use(session(sess));
 
 app.use('/api/comments', commentRoutes);
