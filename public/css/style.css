@@ -5,6 +5,7 @@ body {
   font-family: initial;
   font-size: 16px;
   background-image: url("https://www.brighthorizons.com/resources/-/media/Images/Blog/2013-10-22_Missy-job-satisfaction_iStock_000016488217Large_source.ashx");
+  background-image: opacity 0.5;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -361,6 +362,26 @@ h3 {
 
 .login-button {
   font-size: .5em;
+}
+.footer{
+  display: flex;
+  align-items: left;
+  margin: 0% 1% 0% 0%;
+  font-size: 1.2em;
+  background-color: #f8ededd0;
+  text-shadow: 2px 2px 18px rgb(22, 139, 217);
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+.contact {
+  background-color: #f8ededd0;
+  text-shadow: 2px 2px 18px rgb(22, 139, 217);
+  font-size: 1.3rem;
+  
+
+
 }
 
 
