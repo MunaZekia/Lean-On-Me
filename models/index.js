@@ -1,5 +1,5 @@
 // require models
-const User = require('./baseball');
+const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
 
