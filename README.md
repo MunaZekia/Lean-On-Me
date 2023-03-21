@@ -28,9 +28,11 @@ Our application seeks volunteers who are looking for volunteer work in their loc
 
 ## Screenshot
 
+![](./assets/Leanonme.png)
+
 ## Deployed
 
-Deployed on Heroku! :
+Deployed on Heroku! : https://lean-on-me1.herokuapp.com/
 
 ## Usage
 
@@ -63,3 +65,4 @@ Email: rypetty55@gmail.com, munazekia@gmail.com, agmspu@gmail.com
 - Sequelize
 - MySql
 - Leaflet
+- bcrypt
